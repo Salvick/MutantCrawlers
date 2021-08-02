@@ -19,10 +19,10 @@
             EmptyClientState>
     {
         public const string Description_FirearmsUseless
-            = "Important: Firearms are useless; use melee, explosives, or heat based weapons.";
+            = " Avoid roads or take the opportunity to obtain rare resources at your own risk.";
 
         public const string Description_Primary
-            = "'Mutated crawlers have emerged from under the asphalt. Avoid roads, or take the opportunity to obtain rare resources..";
+            = "An infestation of mutated crawlers have emerged from under the asphalt.";
 
         private static Lazy<IReadOnlyList<IServerZone>> serverSpawnZones;
 
