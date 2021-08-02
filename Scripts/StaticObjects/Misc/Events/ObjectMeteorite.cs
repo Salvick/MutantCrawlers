@@ -89,27 +89,6 @@
             {
                 Server.World.CreateStaticWorldObject<ObjectCrater>(data.GameObject.TilePosition);
             }
-			// this code allows to spawn multiple different mobs
-			// instead of using the ProtoObjectMeteorite one
-			// (remember to disable that one or you'll have both codes working)
-			/*
-			 var worldObject = data.GameObject;
-			 var objectSpaceDebris = (IStaticWorldObject)worldObject;
-				ServerMobSpawnHelper.ServerTrySpawnMobsCustom(
-				protoMob: Api.GetProtoEntity<MobNPC_BA_Sniper>(),
-                countToSpawn: 1,
-                excludeBounds: objectSpaceDebris.Bounds.Inflate(1),
-                maxSpawnDistanceFromExcludeBounds: 2,
-                noObstaclesCheckRadius: 0.5,
-                maxAttempts: 200);
-				ServerMobSpawnHelper.ServerTrySpawnMobsCustom(
-				protoMob: Api.GetProtoEntity<MobNPC_BA_Specialist>(),
-                countToSpawn: 1,
-                excludeBounds: objectSpaceDebris.Bounds.Inflate(3),
-                maxSpawnDistanceFromExcludeBounds: 2,
-                noObstaclesCheckRadius: 0.5,
-                maxAttempts: 200);
-				*/
         }
 
         protected override void SharedCreatePhysics(CreatePhysicsData data)
