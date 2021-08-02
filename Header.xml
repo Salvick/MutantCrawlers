@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+  <game>CryoFall</game>
+  <id>MutantCrawlers</id>
+  <title>Large nasty crawlers infestations</title>
+  <author>Salvick</author>
+  <description>This mod includes a new version of the existing little crwalers turning them into a larger mutated crawler that spits acid and drops some keinite upon killed. It includes a script to spawn the crawlers on meteorites and a new event called "Mutant Crawlers Infestation" which happens for 10 minutes across all the roads, this event is configured to happen disregarding if there are other events going on to add more challenge when returning home from other events or all other sort of PvE and PvP encounters. 
+  For feedback, suggestions or assistance: Salvick#3333 on Discord. </description>
+  <!-- Please increment this version every time you're releasing an update -->
+  <version>0.1.0</version>
+  <!-- This date should be auto-updated if mod is packed with our special tool (coming soon) -->
+  <updated>31.07.2021</updated>
+  <!-- Mod type: 1=server, 2=client+server, 3=client -->
+  <!-- Please note: mods of type 1 are ignored on client (cannot see and activate them)
+                    mods of type 2 are enabled automatically when you're connecting to the server using them
+                    mods of type 3 are ignored on server (cannot see and activate them) -->
+  <modtype>2</modtype>
+  
+  <!-- Patch notes
+  
+				0.1.0:
+					 - First release including Mutant Crawler sprites and general scripts
+					 - Mutant Crawlers Infestation event spawning mutated crawlers on roads
+					 - Mutated crawlers spawning near the meteorites
+					 
+					 TODO: Add spitting animation on attack-->					
+	
+</root>
