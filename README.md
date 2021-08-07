@@ -12,7 +12,7 @@ The new event consists of a massive infestation of mutated crawlers emerging acr
 As the event will provide a new resource of keinite it is lasting only 10 minutes to avoid turning into a replacement of the
 other existing sources of keinite currently available. 
 
-The event is triggered relativelly often and is set to ignore if there are other events in order to bring some 
+Additionally, the event is triggered relativelly often and is set to ignore if there are other events in order to bring some 
 challenge when returning from other events or from any PvE or PvP encounters that might happen.
 
 Additionaly, a group of mutated crawlers now spawn in the surrounding area of the meteorites aiming to add a more dynamic gameplay
