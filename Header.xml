@@ -8,7 +8,7 @@
   <description>This mod includes a new version of the existing little crwalers turning them into a larger mutated crawler that spits acid and drops some keinite upon killed. It includes a script to spawn the crawlers on meteorites and a new event called "Mutant Crawlers Infestation" which happens for 10 minutes across all the roads, this event is configured to happen disregarding if there are other events going on to add more challenge when returning home from other events or all other sort of PvE and PvP encounters. 
   For feedback, suggestions or assistance: Salvick#3333 on Discord. </description>
   <!-- Please increment this version every time you're releasing an update -->
-  <version>0.1.01</version>
+  <version>0.1.02</version>
   <!-- This date should be auto-updated if mod is packed with our special tool (coming soon) -->
   <updated>31.07.2021</updated>
   <!-- Mod type: 1=server, 2=client+server, 3=client -->
@@ -19,10 +19,13 @@
   
   <!-- Patch notes
   
-				0.1.0:
-					 - First release including Mutant Crawler sprites and general scripts
-					 - Mutant Crawlers Infestation event spawning mutated crawlers on roads
-					 - Mutated crawlers spawning near the meteorites
+				0.1.02:
+					
+					- Some raw keinite now is also dropped without collector to match the description
+					of the event mentioning rare resources.
+					
+					- Slight increase on armor piercing of the mutant crawler spit as it was not causing
+					any damage to top tier armors.
 					 
 				0.1.01:
 					Small rebalance:
@@ -33,6 +36,11 @@
 					- Mutant Crawlers poison now is more dangerous, specially if they attack in groups.
 
 					- Added delay on first event trigger.
+  
+				0.1.0:
+					 - First release including Mutant Crawler sprites and general scripts
+					 - Mutant Crawlers Infestation event spawning mutated crawlers on roads
+					 - Mutated crawlers spawning near the meteorites
 					
 					 
 					 TODO: Add spitting animation on attack-->					

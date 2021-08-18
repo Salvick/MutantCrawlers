@@ -76,14 +76,14 @@
             compatibleAmmoProtos = null;
 
             var damageDistribution = new DamageDistribution()
-                                     .Set(DamageType.Kinetic, 0.7)
+                                     .Set(DamageType.Impact, 0.7)
                                      .Set(DamageType.Chemical, 0.3);
 
             overrideDamageDescription = new DamageDescription(
                 damageValue: 5,
-                armorPiercingCoef: 0.2,
+                armorPiercingCoef: 0.4,
                 finalDamageMultiplier: 1.25,
-                rangeMax: 3,
+                rangeMax: 4,
                 damageDistribution: damageDistribution);
         }
 
